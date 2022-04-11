@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<!--
+--- GROUP ASSIGNMENT ---
+- Group Members: Amiel Thompson, Danyal Mughal, Shreya Patel
+- DCF255-NCC
+- 2022-04-10
+-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Software Defined Networking</title>
+
+        <link rel="icon" href="media\Comp 1 (0-00-00-00).jpg">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>SOFTWARE DEFINED NETWORKING</h1>
+
+        <div class="navigation">
+            <button class="nvgtn-bttn" id="bttn-a">What is SDN?</button>
+            <button class="nvgtn-bttn" id="bttn-b">SDN History</button>
+            <button class="nvgtn-bttn" id="bttn-c">How does SDN work?</button>
+            <button class="nvgtn-bttn" id="bttn-d">References</button>
+        </div>
+
+        <br><br>
+
+        <div class="content" id="what-is-sdn">
+            <h2>What Is Software Defined Networking?</h2>
+            <img src="media\Picture1.png" alt="SDN Architecture Layers" class="images" id="image-a">
+            <p>
+                What is <a href="https://en.wikipedia.org/wiki/Software-defined_networking" target="_blank">software
+                defined networking</a> you may ask? Software defined networks are an architecture that
+                provides a different dynamic; It’s manageable, cost-effective, as well as adaptable. All of these make
+                software defined networks complete for having a high bandwidth. The software defined networking
+                architecture dissociates the network control as well as the forwarding functions, which then allows the
+                network control to enhance into being programmable. Moreover, the underlying infrastructure is
+                abstracted to add applications and network services.
+            </p>
+            <p>
+                The image to the left shows how the architecture is designed to look. Firstly, we start with the
+                application layer, move down to the control layer and lastly, the infrastructure layer. The application
+                layer contains business applications. The control layer contains the network services. In order to
+                transfer data into the infrastructure, the protocol
+                <a href="https://en.wikipedia.org/wiki/OpenFlow" target="_blank">OpenFlow</a> is used.
+            </p>
+            <p>
+                Throughout this webpage, you will be reading through, one: how software defined
+                networking is structured, two: how SDN started, three: how SDN works, fourth: why SDN was created,
+                fifth: pros and cons, sixth: the importance of SDN, seventh: protocols of SDN, and lastly, how
+                to create a software defined network.
+            </p>
+            <br>
+        </div>
+
+        <div class="content" id="sdn-history">
+            <h2>Brief History of Software Defined Networking</h2>
+            <img src="media\Picture3.jpeg" alt="Martin Casado" class="images" id="image-c">
+            <p>
+                Now when you hear of SDN you may think, “Huh, I know what software defined networking is but when did it
+                all start?”. Of course, anyone would be curious to know when and where SDN first started to get a bit of
+                background about it. At Stanford in 2005, a man named Martin Casado’s thesis work got super hyped, and
+                that’s where all the talk of software defined networking came into play. A little background on who
+                Martin Casado is; He is a software engineer, who is currently 45 years old. Let’s get to know more about
+                what Martin Casado did with software defined networks. In 2007, Casado worked with some of his friends
+                from Stanford to form <a href="https://www.linkedin.com/company/nicira" target="_blank">Nicira Networks</a>.
+                In 2012, Nicira Networks was obtained by
+                <a href="https://www.vmware.com/latam/company/acquisitions/nicira.html" target="_blank">VMWare</a>.
+                Afer this, Casado and his friends developed the first standard interface called OpenFlow. This interface
+                helped to separate the network control as well as the data planes. Later in 2014,
+                <a href="https://opennetworking.org/onos/" target="_blank">Open Network Operating System</a> (ONOS) was
+                developed which is an open-source software defined network controller that the operators have access to.
+                Then, in 2017, CORD used the ‘Edge Cloud’ solution that had about 70 percent of the operators planned to
+                move CORD and transfer the networks. Overall, software defined networking has been around since 2007 and
+                has been evolving ever since then.
+            </p>
+            <br>
+        </div>
+
+        <div class="content" id="how-does-sdn-work">
+            <h2>How Does Software Defined Networking Work?</h2>
+            <img src="media\Picture2.png" alt="SDN Process" class="images" id="image-b">
+            <p>
+                Now that we know a little about SDN’s background, let’s move on to talk about how SDN works. As
+                mentioned earlier the three steps of software defined networking are applications, controllers, and
+                networking devices. We are now going to talk about them in more detail. Firstly, within applications,
+                it is possible to communicate resource requests as well as information that is related to the network
+                overall. Secondly, controllers use information from the applications that were sent previously. The
+                controllers use the information from the applications so that the route of a data packet can be decided.
+                Moreover, networking devices will receive the information from the applications and controller about
+                where this data and information needs to be moved. The information and data are moved through the
+                network, however, sometimes within the software or hardware, a virtual switch can be embedded. When the
+                virtual switch is embedded into the hardware or software, it would take the responsibility from the
+                physical switch and then merge the functions into a single as well as intelligent switch. When this
+                process happens, the switch will check to see if the morals of the data packets along with the virtual
+                machine target, then will move all the packets.
+            </p>
+            <p>
+                The picture to the right shows exactly what was mentioned in the previous paragraph. This is a visual
+                representation of how software defined networks work. This image shows the process of software defined
+                networking, going from application, control, and infrastructure. The example given in this image is a
+                representation of business applications. It shows how software defined networking works within the
+                business field.
+            </p>
+            <p>
+                Furthermore, software defined networks were created to establish a connection within a network so that
+                people within industries or businesses could use software defined networks. The number one priority is a
+                good connection. With a good connection, someone can connect to others on the web so that software
+                defined networks could be used in promoting sales and deals. It could also be used for customer service
+                purposes, internal communication, and document sharing. For example, when a teacher sends a lab document
+                to his/her students, it is shared with multiple students. Similarly, when students share documents
+                with each other using <a href="https://docs.google.com/" target="_blank">Google Docs</a> or
+                <a href="https://www.office.com/launch/word?auth=2" target="_blank">Microsoft Word</a>, this is a
+                software defined network being used as a way to help them and make work more efficient. The creation
+                of software defined networks also allows a new way of being able to control the routing of data packets
+                through a centralized server. Without the creation of software defined networks, a lot of today’s
+                applications would not work or exist. Some examples are cloud networks, programs for network
+                virtualization, network monitoring, intrusion detection, and flow balancing. A huge benefit of software
+                defined networking is the ability to easily move data between distributed locations which is necessary
+                for cloud applications. This is how software defined networking moves a ton of data from documents we
+                create so efficiently. Another benefit would be network administrators being able to also add or remove
+                virtual machines from any network through SDN, regardless of whether those machines are on-premises or
+                in the cloud.
+            </p>
+            <iframe src="https://www.youtube-nocookie.com/embed/Z5Gi2Bpd82M" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video-1"></iframe>
+            <p>
+                Although software defined networking has a ton of advantages to it, there are also major flaws as well.
+                One flaw is the security of SDN because of how easy it is to breach it. People can create configuration
+                errors within the network because of how easy the programming languages are within the SDN logic. This
+                makes the applications within the network more vulnerable to being attacked by other people and hacked
+                into. In order to implement the software defined network's protocols and controllers, the whole
+                network infrastructure must be changed. As a result, the network must be reconfigured from the ground up.
+                This also increases costs for maintaining the network.
+            </p>
+            <p>
+                What makes software defined networking so important is that in comparison with traditional networking,
+                SDN represents a substantial leap forward and enables an increase in speed, control, and flexibility. A
+                software-based controller can automate the flow of traffic over a network without needing to program
+                multiple vendor-specific hardware devices. The flexibility of selecting networking equipment is also
+                enhanced because administrators can choose a single protocol to communicate with multiple types of
+                hardware through a single controller.
+            </p>
+            <p>
+                Another important ability of software defined networking is customizing the network infrastructure. A
+                software defined network lets administrators adjust the network infrastructure in real-time by
+                configuring network services and distributing virtual resources from a central location. OpenFlow and
+                the <a href="https://docs.openvswitch.org/en/latest/ref/ovsdb.7/" target="_blank">Open Virtual Switch
+                Database</a> (OVSDB) are the most widely used protocols by software defined network controllers to
+                communicate with switches/routers. As well as these protocols, many other open-standard and
+                collaborative protocols are currently being developed.
+            </p>
+            <p>
+                In conclusion, software defined networking is the main source of our everyday use of technology as we
+                use networking every day. Hoping for our network performance to work well, we use SDN to ensure that we
+                are getting the most efficient network configuration. It helps us with efficiency in connecting to the
+                network and easily connecting to servers. Although we have problems, such as weak security, software
+                defined networking still has more benefits in our lives than negatives. Software defined networks have
+                created most applications and without it we would not have many of them such as cloud networks, programs
+                for network virtualization, network monitoring, intrusion detection, flow balancing, and more. This is
+                why software defined networking is so important in today's world, and for the future.
+            </p>
+            <br>
+        </div>
+
+        <div class="content" id="citation">
+            <h2>References</h2>
+            <ul id="sources">
+                <li><a href="https://www.techtarget.com/searchnetworking/definition/SDN-application-software-defined-networking-application" target="_blank">Tech Target</a></li>
+                <li><a href="https://www.enterprisenetworkingplanet.com/standards-protocols/openflow-sdn-inventor-martin-casado-on-sdn-vmware-and-software-defined-networking-hype-video/" target="_blank">Enterprise Networking Planet</a></li>
+                <li><a href="https://www.rfwireless-world.com/Terminology/Advantages-and-Disadvantages-of-SDN.html" target="_blank">RF Wireless World</a></li>
+                <li><a href="https://thesai.org/Downloads/Volume10No10/Paper_42-Security_Issues_in_Software_Defined_Networking.pdf" target="_blank">The Sai</a></li>
+                <li><a href="https://www.sdxcentral.com/networking/sdn/definitions/why-sdn-important/" target="_blank">SDX Central</a></li>
+                <li><a href="https://opennetworking.org/sdn-definition/" target="_blank">Open Networking</a></li>
+                <li><a href="https://zindagitech.com/what-are-the-advantages-disadvantages-and-architectural-components-of-sdn/" target="_blank">ZindagiTech</a></li>
+                <li><a href="https://www.vmware.com/topics/glossary/content/software-defined-networking.html#:~:text=While%20network%20%20virtualization%20allowed%20%20organizations,of%20data%20packets%20through%20a" target="_blank">VMWare</a></li>
+                <li><a href="https://www.ciena.com/insights/what-is/What-Is-SDN.html" target="_blank">Ciena</a></li>
+                <li><a href="https://www.researchgate.net/figure/Software-Defined-Network-Architecture-depicts-a-logical-view-of-the-SDN-architecture_fig1_261087470" target="_blank">Research Gate</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a></li>
+                <li><a href="https://sdn.ieee.org/newsletter/november-2015/cord-central-office-re-architected-as-a-datacenter" target="_blank">IEEE</a></li>
+                <li><a href="https://docs.openvswitch.org/en/latest/ref/ovsdb.7/" target="_blank">Open V Switch</a></li>
+            </ul>
+        </div>
+
+        <br><br>
+
+        <div class="footer">
+            <br>
+            &nbsp;--- GROUP ASSIGNMENT ---<br>
+            <ul>
+                <li>DCF255-NCC</li>
+                <li>2022-04-10</li>
+                <li>
+                    Group Members:
+                    <ul>
+                        <li><span class="student-name">Amiel Thompson</span> [117065219]</li>
+                        <li><span class="student-name">Danyal Mughal</span> [157394198]</li>
+                        <li><span class="student-name">Shreya Patel</span> [102755212]</li>
+                    </ul>
+                </li>
+            </ul>
+            <br>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

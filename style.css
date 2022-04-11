@@ -1,0 +1,130 @@
+/* default body styling */
+body {
+    background-color: rgb(175, 215, 255);
+    color: black;
+    font-family: "Segoe UI Variable", "Trebuchet MS", "SansSerif";
+}
+
+/* header and paragraph styling */
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+    margin: 40px;
+}
+
+/* navigation buttons <div> */
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+/* button styling */
+.nvgtn-bttn {
+    margin-right: 50px;
+    width: 300px;
+    height: 60px;
+    font-family: "Segoe UI Variable", "Trebuchet MS", "SansSerif";
+    font-size: 24px;
+    outline: none;
+    background-color: rgb(175, 215, 255);
+    color: white;
+    border: solid white 3px;
+    border-radius: 10px;
+}
+
+.nvgtn-bttn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(175, 215, 255);
+    border: solid black 3px;
+}
+
+.nvgtn-bttn:active {
+    background-color: rgb(175, 215, 255);
+    color: white;
+}
+
+/* main text styling */
+.content {
+    background-color: white;
+    width: 95%;
+    margin: auto auto auto auto;
+    overflow: auto;
+}
+
+/* image styling */
+.images {
+    border: solid rgb(175, 215, 255) 5px;
+    border-radius: 20px;
+}
+
+#image-a {
+    float: left;
+    margin: 20px 40px 20px 40px;
+    width: 360px;
+    height: 360px;
+}
+
+#image-b {
+    float: right;
+    margin: 20px 40px 20px 40px;
+    width: 480px;
+    height: 480px;
+}
+
+#image-c {
+    float: right;
+    margin: 20px 40px 20px 40px;
+    width: 270px;
+    height: 270px;
+}
+
+/* iframe video styling */
+#video-1 {
+    border: solid rgb(175, 215, 255) 5px;
+    border-radius: 20px;
+    float: left;
+    margin: 20px 40px 20px 40px;
+    width: 640px;
+    height: 360px;
+}
+
+/* reference links styling */
+#sources {
+    font-size: 20px;
+}
+
+a {
+    color: rgb(75, 115, 155);
+}
+
+a:visited {
+    color: mediumpurple;
+}
+
+/* footer styling */
+.footer {
+    background-color: black;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    font-family: "Courier New";
+    font-size: 16px;
+}
+
+.student-name {
+    display: inline-block;
+    width: 10%;
+}
+
+
